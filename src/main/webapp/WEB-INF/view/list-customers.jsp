@@ -6,6 +6,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
+
+<link  type="text/css"  rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css" />
 <title>List Customers</title>
 </head>
 <body>
