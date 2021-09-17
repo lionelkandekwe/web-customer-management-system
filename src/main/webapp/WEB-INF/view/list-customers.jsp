@@ -7,7 +7,8 @@
 <head>
 <meta charset="UTF-8">
 
-<link  type="text/css"  rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css" />
+<link type="text/css" rel="stylesheet"
+	href="${pageContext.request.contextPath}/resources/css/style.css" />
 <title>List Customers</title>
 </head>
 <body>
@@ -22,7 +23,14 @@
 
 		<div id="content">
 
+			<!-- Add customer button -->
 
+			<input type="button" value="Add Customer"
+				onClick="window.location.href='showFormForAdd';return false;"
+				class="add-button" />
+
+
+			<!-- Customer Table -->
 			<table>
 				<tr>
 					<th>First Name</th>
