@@ -12,7 +12,7 @@ public interface CustomerService {
 
 	public Customer getCustomers(int theId);
 
-
+	public void deleteCustomer(int theId);
 
 	
 }
